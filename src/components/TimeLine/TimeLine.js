@@ -83,7 +83,11 @@ const Timeline = () => {
           <div class="flex flex-col sm:flex-row mt-10">
             <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
               <p class="leading-relaxed text-7xl mb-4">Familia de vehículos</p>
-              <a class="text-indigo-500 inline-flex items-center">
+              <a
+                href="https://drive.google.com/file/d/1ikvA8qStIrguTq59fsLLlsmEUfGfgrvQ/view?usp=sharing"
+                target="_blank"
+                class="text-indigo-500 inline-flex items-center"
+              >
                 Descargar
                 <svg
                   fill="none"
@@ -100,9 +104,9 @@ const Timeline = () => {
             </div>
           </div>
         </div>
-        <br/>
-        <br/>
-        <br/>
+        <br />
+        <br />
+        <br />
 
         <div class="lg:w-4/6 mx-auto">
           <div class="rounded-lg h-64 overflow-hidden">
@@ -115,7 +119,11 @@ const Timeline = () => {
           <div class="flex flex-col sm:flex-row mt-10">
             <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
               <p class="leading-relaxed  mb-4 text-7xl">Familia de muebles</p>
-              <a class="text-indigo-500 inline-flex items-center">
+              <a
+                href="https://drive.google.com/file/d/1ikvA8qStIrguTq59fsLLlsmEUfGfgrvQ/view?usp=sharing"
+                target="_blank"
+                class="text-indigo-500 inline-flex items-center"
+              >
                 Descargar
                 <svg
                   fill="none"

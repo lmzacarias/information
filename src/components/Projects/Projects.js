@@ -138,7 +138,13 @@ const Projects = () => (
             </p>
             <div class="flex justify-center">
               <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded  font-sans ...">
-                Descargar
+              <a
+              href="https://drive.google.com/file/d/1ikvA8qStIrguTq59fsLLlsmEUfGfgrvQ/view?usp=sharing"
+              target="_blank"
+              className="text-3xl"
+            >
+              Descargar
+            </a>
               </button>
               {/* <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded  font-sans ...">
                 Button
