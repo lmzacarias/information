@@ -17,6 +17,7 @@ import 'antd/dist/antd.css';
 import { Card, Avatar } from 'antd';
 import {
   EditOutlined,
+  DownloadOutlined ,
   EllipsisOutlined,
   SettingOutlined,
 } from '@ant-design/icons';
@@ -41,7 +42,7 @@ const Technologies = () => (
         actions={[
           <SettingOutlined key="setting" />,
          
-          <EllipsisOutlined key="ellipsis" />,
+          <DownloadOutlined  key="download" />,
         ]}
       >
         <Meta
@@ -61,7 +62,8 @@ const Technologies = () => (
         actions={[
           <SettingOutlined key="setting" />,
  
-          <EllipsisOutlined key="ellipsis" />,
+         
+          <DownloadOutlined  key="download" />,
         ]}
       >
         <Meta
@@ -79,7 +81,8 @@ const Technologies = () => (
         }
         actions={[
           <SettingOutlined key="setting" />,
-          <EllipsisOutlined key="ellipsis" />,
+           
+          <DownloadOutlined  key="download" />,
         ]}
       >
         <Meta
@@ -98,7 +101,8 @@ const Technologies = () => (
         }
         actions={[
           <SettingOutlined key="setting" />,
-          <EllipsisOutlined key="ellipsis" />,
+    
+          <DownloadOutlined  key="download" />,
         ]}
       >
         <Meta
@@ -117,7 +121,8 @@ const Technologies = () => (
         }
         actions={[
           <SettingOutlined key="setting" />,
-          <EllipsisOutlined key="ellipsis" />,
+   
+          <DownloadOutlined  key="download" />,
         ]}
       >
         <Meta
@@ -136,7 +141,8 @@ const Technologies = () => (
         actions={[
           <SettingOutlined key="setting" />,
   
-          <EllipsisOutlined key="ellipsis" />,
+         
+          <DownloadOutlined  key="download" />,
         ]}
       >
         <Meta
