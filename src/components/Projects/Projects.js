@@ -46,57 +46,8 @@ const Projects = () => (
     <SectionDivider />
 
     <SectionTitle main>Proyectos</SectionTitle>
-    {/* <GridContainer>
-      {projects.map((p, i) => {
-        return (
-          <BlogCard key={i}>
-          <Img src={p.image} />
-            <TitleContent>
-              <HeaderThree title>{p.title}</HeaderThree>
-              <Hr />
-            </TitleContent>
-            <CardInfo className="card-info">{p.description}</CardInfo>
-            <div>
-              <TitleContent>Stack</TitleContent>
-              <TagList>
-                {p.tags.map((t, i) => {
-                  return <Tag key={i}>{t}</Tag>;
-                })}
-              </TagList>
-            </div>
-            <UtilityList>
-              <ExternalLinks href={p.visit}>Code</ExternalLinks>
-              <ExternalLinks href={p.source}>Source</ExternalLinks>
-            </UtilityList>
-          </BlogCard>
-        );
-      })}
-    </GridContainer> */}
+
     <div>
-      {/* {' '}
-      <Card
-        style={{ width: 300 }}
-        cover={
-          <img
-            alt="example"
-            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-          />
-        }
-        actions={[
-          <SettingOutlined key="setting" />,
-          <EditOutlined key="edit" />,
-          <EllipsisOutlined key="ellipsis" />,
-        ]}
-      >
-        <Meta
-          avatar={
-            <Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />
-          }
-          title="Card title"
-          description="This is the description"
-        />
-      </Card>
-       */}
       <Carousel afterChange={onChange}>
         <div>
           <AspectRatio ratio={9 / 16}>
@@ -141,7 +92,7 @@ const Projects = () => (
       <section class="text-gray-600 font-sans ...text-2xl">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-          <div class="flex justify-center">
+            <div class="flex justify-center">
               <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded  font-sans ...">
                 <a
                   href="https://drive.google.com/file/d/1ikvA8qStIrguTq59fsLLlsmEUfGfgrvQ/view?usp=sharing"
@@ -158,15 +109,104 @@ const Projects = () => (
           </div>
           <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center font-sans...">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-50 font-sans ...">
-            Diseñó de casa de 2 plantas introspectiva
+              Diseñó de casa de 2 plantas introspectiva
               <br class="hidden lg:inline-block font-sans ..." />
             </h1>
             <p class="mb-8 leading-relaxed">
-            Este proyecto consta de una casa de dos plantas con la particularidad que tiene un enfoque
-              Introspectivo, los espacios interiores por el contrario tienen un vinculo con la naturaleza al igual que grandes espacios con gran luminosidad
-
+              Este proyecto consta de una casa de dos plantas con la
+              particularidad que tiene un enfoque Introspectivo, los espacios
+              interiores por el contrario tienen un vinculo con la naturaleza al
+              igual que grandes espacios con gran luminosidad
             </p>
-           
+            <span>Herramientas usadas:</span> <br />
+            <span>Revit 2020</span> <br />
+            <span>Skechup 2019</span> <br />
+            <span>Lumion 8</span> <br />
+
+
+          </div>
+        </div>
+      </section>
+    </div>
+    <div>
+      <Carousel afterChange={onChange}>
+        <div>
+          <AspectRatio ratio={9 / 16}>
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/happy-bonita.appspot.com/o/2%20proyecto.jpg?alt=media&token=326b16b0-b0a4-4dc7-bf5f-c44cb0bb988e"
+              alt="vehicle"
+              className="w-full"
+              style={{
+                objectFit: 'cover',
+                height: '100%',
+              }}
+            />
+          </AspectRatio>
+        </div>
+        <div>
+          <AspectRatio ratio={9 / 16}>
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/happy-bonita.appspot.com/o/3%20proyect.jpg?alt=media&token=e8c4c30a-4869-4e15-9c2e-5a6527553805"
+              alt="vehicle"
+              className="w-full"
+              style={{
+                objectFit: 'cover',
+                height: '100%',
+              }}
+            />
+          </AspectRatio>
+        </div>
+        <div>
+          <AspectRatio ratio={9 / 16}>
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/happy-bonita.appspot.com/o/proy%205.jpg?alt=media&token=ed6d048d-5aa5-4b51-a5d7-ad5795361691"
+              alt="vehicle"
+              className="w-full"
+              style={{
+                objectFit: 'cover',
+                height: '100%',
+              }}
+            />
+          </AspectRatio>
+        </div>
+      </Carousel>
+      <section class="text-gray-600 font-sans ...text-2xl">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+            <div class="flex justify-center">
+              <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded  font-sans ...">
+                <a
+                  href="https://drive.google.com/file/d/1HZUbZ6ycBr-o0Ap_7JhWF3Cpp_lyofNt/view?usp=sharing"
+                  target="_blank"
+                  className="text-3xl"
+                >
+                  Descargar
+                </a>
+              </button>
+              {/* <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded  font-sans ...">
+                Button
+              </button> */}
+            </div>
+          </div>
+          <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center font-sans...">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-50 font-sans ...">
+              Diseñó de casa de 2 plantas con detalles en madera para la fachada
+              <br class="hidden lg:inline-block font-sans ..." />
+            </h1>
+            <p class="mb-8 leading-relaxed">
+            <span>Archivo incluye:</span> <br />
+              <span>Plano de Cimientos</span> <br />
+              <span>Planta Baja</span><br />
+              <span>Planta Alta</span><br />
+              <span>Corte A-A</span><br />
+              <span> Corte B-B</span><br />
+              <span>Elevación Principal</span><br />
+              <span>Elevación Lateral</span><br /> <br />
+              <span>Herramientas usadas:</span> <br />
+            <span>Revit 2020</span> <br />
+            <span>Skechup 2019</span> <br />
+            <span>Lumion 8</span> <br />
+            </p>
           </div>
         </div>
       </section>
