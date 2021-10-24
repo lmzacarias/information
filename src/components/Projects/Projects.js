@@ -118,6 +118,8 @@ const Projects = () => (
               interiores por el contrario tienen un vinculo con la naturaleza al
               igual que grandes espacios con gran luminosidad
             </p>
+          
+       
             <span>Herramientas usadas:</span> <br />
             <span>Revit 2020</span> <br />
             <span>Skechup 2019</span> <br />
@@ -176,7 +178,7 @@ const Projects = () => (
             <div class="flex justify-center">
               <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded  font-sans ...">
                 <a
-                  href="https://drive.google.com/file/d/1HZUbZ6ycBr-o0Ap_7JhWF3Cpp_lyofNt/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1ikvA8qStIrguTq59fsLLlsmEUfGfgrvQ/view?usp=sharing"
                   target="_blank"
                   className="text-3xl"
                 >
@@ -201,8 +203,8 @@ const Projects = () => (
               <span>Corte A-A</span><br />
               <span> Corte B-B</span><br />
               <span>Elevación Principal</span><br />
-              <span>Elevación Lateral</span><br /> <br />
-              <span>Herramientas usadas:</span> <br />
+              <span>Elevación Lateral</span>
+                 <span>Herramientas usadas:</span> <br />
             <span>Revit 2020</span> <br />
             <span>Skechup 2019</span> <br />
             <span>Lumion 8</span> <br />
